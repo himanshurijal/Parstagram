@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- See table below.  The external-files-path DOES NOT require external storage permissions. -->
+    <external-files-path
+        name="images"
+        path="Pictures" />
+
+    <!--Uncomment below to share the entire application specific directory -->
+    <!--<external-path name="all_dirs" path="."/>-->
+</paths>
+
+<!-- The application that we'll launch from our app (Camera app)
+     has access to our external storage directory. In particular,
+     the "Pictures" path of our external file. Doing this, will
+     allow us to share files between the two applications
+     (Parstagram and Camera) -->
